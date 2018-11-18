@@ -1,12 +1,10 @@
 {
 	"compilerOptions": {
-		"outDir": "./js",
 		"allowJs": false,
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"target": "es6",
 		"baseUrl": "./ts",
 		"declaration": true
-	},
-	"include": ["./ts/**/*"]
+	}
 }

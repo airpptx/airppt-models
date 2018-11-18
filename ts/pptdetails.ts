@@ -4,4 +4,5 @@ export interface PowerpointDetails {
 	slideShowGlobals: any;
 	slideShowTheme: any;
 	powerPointElements: PowerpointElement[];
+	inputPath: string;
 }
