@@ -1,11 +1,16 @@
 {
 	"name": "airppt-models",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Shared type Models for AirPPT Packages",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"@types/node": "^10.12.9",
+		"jszip": "^3.1.5",
+		"xml2js-es6-promise": "^1.1.1"
+	}
 }
