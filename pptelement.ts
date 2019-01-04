@@ -3,7 +3,7 @@
  */
 export interface PowerpointElement {
 	name: string; //or the name combined
-	shapeType: ElementType; //
+	shapeType: string; //the preset type of shape as defined the Offixe XML schema
 	specialityType: SpecialityType; //Do something special such as "images","textboxes","media"
 	elementPosition: {
 		//location to place the element
@@ -50,19 +50,6 @@ export interface PowerpointElement {
 		//wherever or whichever element this might link do
 	};
 	raw: any; //the entire unparsed element object
-}
-
-export enum ElementType {
-	Ellipse = "Ellipse",
-	RoundedRectangle = "RoundedRectangle",
-	Rectangle = "Rectangle",
-	Octagon = "Octagon",
-	Frame = "Frame",
-	Triangle = "Triangle",
-	RightTriangle = "RightTriangle",
-	Image = "Image",
-	Textbox = "Textbox",
-	Media = "Media"
 }
 
 export enum BorderType {

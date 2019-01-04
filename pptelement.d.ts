@@ -3,7 +3,7 @@
  */
 export interface PowerpointElement {
     name: string;
-    shapeType: ElementType;
+    shapeType: string;
     specialityType: SpecialityType;
     elementPosition: {
         x: number;
@@ -48,18 +48,6 @@ export interface PowerpointElement {
         Uri: string;
     };
     raw: any;
-}
-export declare enum ElementType {
-    Ellipse = "Ellipse",
-    RoundedRectangle = "RoundedRectangle",
-    Rectangle = "Rectangle",
-    Octagon = "Octagon",
-    Frame = "Frame",
-    Triangle = "Triangle",
-    RightTriangle = "RightTriangle",
-    Image = "Image",
-    Textbox = "Textbox",
-    Media = "Media"
 }
 export declare enum BorderType {
     dotted = "dotted",

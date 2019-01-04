@@ -4,7 +4,7 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"target": "es6",
-		"baseUrl": "./ts",
+		"baseUrl": "./",
 		"declaration": true
 	}
 }

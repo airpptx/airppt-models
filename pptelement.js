@@ -1,18 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var ElementType;
-(function (ElementType) {
-    ElementType["Ellipse"] = "Ellipse";
-    ElementType["RoundedRectangle"] = "RoundedRectangle";
-    ElementType["Rectangle"] = "Rectangle";
-    ElementType["Octagon"] = "Octagon";
-    ElementType["Frame"] = "Frame";
-    ElementType["Triangle"] = "Triangle";
-    ElementType["RightTriangle"] = "RightTriangle";
-    ElementType["Image"] = "Image";
-    ElementType["Textbox"] = "Textbox";
-    ElementType["Media"] = "Media";
-})(ElementType = exports.ElementType || (exports.ElementType = {}));
 var BorderType;
 (function (BorderType) {
     BorderType["dotted"] = "dotted";
