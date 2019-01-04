@@ -22,7 +22,6 @@ var TextAlignment;
 })(TextAlignment = exports.TextAlignment || (exports.TextAlignment = {}));
 var SpecialityType;
 (function (SpecialityType) {
-    SpecialityType["Textbox"] = "Textbox";
     SpecialityType["Image"] = "Image";
     SpecialityType["None"] = "None";
 })(SpecialityType = exports.SpecialityType || (exports.SpecialityType = {}));

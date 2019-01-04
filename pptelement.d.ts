@@ -67,7 +67,6 @@ export declare enum TextAlignment {
     Justified = "justify"
 }
 export declare enum SpecialityType {
-    Textbox = "Textbox",
     Image = "Image",
     None = "None"
 }
